@@ -6,6 +6,7 @@ import Date$Time from '../components/Date$Time'
 import Gallery from '../components/Gallery'
 import Location from '../components/Location'
 import Contact from '../components/Contact'
+import Videos from '../components/Videos'
 
 const HomePage = () => {
   return (
@@ -13,6 +14,7 @@ const HomePage = () => {
         <Intro/>
         <Content/>
         <Date$Time/>
+        <Videos/>
         <Gallery/>
         <Location/>
         <Contact/>

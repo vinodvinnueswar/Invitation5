@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
 *{
   margin: 0;
   padding: 0;
@@ -81,8 +84,13 @@
 }
 .wishes p{
   margin-top: -550px;
-  font-size: 20px;
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #7a4100;
+  font-size: 25px;
 }
+
 
 
 
@@ -196,6 +204,37 @@ background: linear-gradient(307deg, rgba(0, 208, 255, 1) 37%, rgba(31, 184, 255,
   height: 840px;
   width: 750px;
 }
+
+/* Video Container */
+.videos-Container{
+  height: 60vh;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 5px 8px 6px 0px black;
+  background-color: antiquewhite;
+}
+.videos-Container h3{
+  margin-top: 50px;  
+  font-size: 25px;
+}
+/* .Video iframe{
+  margin-top: 30px;
+  height: 35vh;
+  width: 35vw;
+} */
+.videos-Container img{
+  height: 100px;
+  width: 250px;
+}
+.videos-Container h3{
+  margin-top: 60px;
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+
+
 
 /* Gallery Container */
 .Gallery_Container{
@@ -368,8 +407,9 @@ color: wheat;
   
   /* Home Page */
   .Home_Page{
-    height: 80%;
-    width: 100%;
+    height: 100%;
+    width: 100vw;
+    overflow: hidden;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -381,7 +421,8 @@ color: wheat;
   /*Intro Container */
   .Intro_Container{
     height: 100vh;
-    width: 100%;
+    width: 100vw;
+    overflow: hidden;
     background-color: antiquewhite;
     box-shadow: 2px 3px 4px 4px black;
     display: flex;
@@ -406,7 +447,7 @@ color: wheat;
     height: 100%;
     margin-top: -640px;
     height: 350px;
-    width: 350px;
+    width: 385px;
   }
   .Bamboo{
     display: flex;
@@ -554,6 +595,37 @@ color: wheat;
     height: 640px;
     width: 420px;
   }
+
+
+/* Video Container */
+.videos-Container{
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 5px 8px 0px 0px black;
+  background-color: antiquewhite;
+}
+.videos-Container h3{
+  margin-top: 50px;  
+  font-size: 25px;
+}
+/* .Video iframe{
+  margin-top: 30px;
+  height: 35vh;
+  width: 35vw;
+} */
+.videos-Container img{
+  height: 100px;
+  width: 250px;
+}
+.videos-Container h3{
+  margin-top: 60px;
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+
   
   /* Gallery Container */
   .Gallery_Container{
@@ -592,6 +664,7 @@ color: wheat;
   
   /* Location */
   .Location_Container{
+    margin-top: -200px;
     height: 100vh;
     width: 100%;
     display: flex;
@@ -599,6 +672,7 @@ color: wheat;
     align-items: center;
    background-color: antiquewhite;
    box-shadow: 5px 8px 6px 0px black;
+   margin-bottom: -300px;
   }
   .Location_Container h4{
     margin-top: 20px;
@@ -619,7 +693,7 @@ color: wheat;
     border-radius: 5px;
   }
   .Button{
-    height: 40px;
+    height: 50px;
     width: 310px;
     background-color: white;
     display: flex;
@@ -636,7 +710,7 @@ color: wheat;
   /* Contacts */
   
   .wish{
-    margin-top: -60px;
+    margin-top: 60px;
     display: flex;
     align-items: center;
     justify-content: center;

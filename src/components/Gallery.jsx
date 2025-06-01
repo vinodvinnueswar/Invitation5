@@ -36,7 +36,8 @@ const Gallery = () => {
   return (
     <div className="Gallery_Container">
          <h4>Gallery</h4>
-        <div className="Gallery">
+        <div className="Gallery" data-aos="fade-up"
+     data-aos-anchor-placement="top-bottom">
             {
                 data.map((item , index) => {
                     return(
